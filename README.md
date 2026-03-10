@@ -1,152 +1,175 @@
-# 🌍 Landing Page – Agência de Viagens
+# 🌍 TripMe — Landing Page de Agência de Viagem
 
-## 📌 Sobre o Projeto
+Projeto desenvolvido como **Projeto de Certificação 1 – Agência de Viagem**, com o objetivo de criar uma **landing page temática de viagens** utilizando HTML e CSS.
 
-Este projeto consiste no desenvolvimento de uma **Landing Page para uma agência de viagens**, criada com o objetivo de apresentar destinos turísticos, a equipe da empresa, dicas de viagem e informações de contato.
-
-A página foi construída utilizando **HTML, CSS e JavaScript**, com foco em uma interface moderna, responsiva e com boa experiência de navegação para o usuário.
-
-O projeto simula o site de uma agência fictícia chamada **Viagens**, oferecendo uma apresentação visual atrativa de destinos turísticos e serviços relacionados ao planejamento de viagens.
+A página apresenta destinos inspiradores, informações sobre a agência e formas de contato, seguindo boas práticas de **semântica, navegação interna e experiência do usuário**.
 
 ---
 
-# 🎯 Objetivo
+# ✈️ Sobre o projeto
 
-O objetivo deste projeto é aplicar conceitos fundamentais do **desenvolvimento web front-end**, incluindo:
+A proposta do desafio foi desenvolver uma **landing page simples**, que pudesse representar uma agência de viagens fictícia chamada **TripMe**.
 
-* Estruturação semântica com HTML5
-* Estilização moderna com CSS3
-* Interatividade com JavaScript
-* Design responsivo para diferentes dispositivos
-* Organização de layout com seções e componentes reutilizáveis
+A página foi pensada como uma **página de conversão (landing page)**, com o objetivo de apresentar destinos, gerar interesse no visitante e facilitar o contato.
+
+O layout apresenta um **banner principal com imagem inspiradora**, além de seções informativas que guiam o usuário pela experiência.
 
 ---
 
-# 🧩 Estrutura da Página
+# 📸 Preview do projeto
 
-A landing page é composta pelas seguintes seções:
+*(adicione aqui um print da página depois que publicar)*
 
-### 🏠 Banner (Home)
+Exemplo:
 
-Área principal da página com imagem de destaque, título, descrição e botão de navegação para os destinos.
-
-### ✈️ TripMe – Pacotes de Viagem
-
-Seção que apresenta alguns destinos turísticos populares por meio de **cards informativos com imagem, título e descrição**.
-
-### 👥 MeetUs – Nossa Equipe
-
-Apresentação de membros da equipe responsáveis por planejar e organizar as experiências de viagem.
-
-### 🧭 Conselhos de Viagem
-
-Lista de recomendações importantes para quem pretende viajar, como documentos necessários e planejamento.
-
-### 📍 NosEncontre – Contato
-
-Informações de contato da agência, incluindo endereço, e-mail e telefone.
-
-### 📄 Footer
-
-Rodapé contendo direitos autorais e informações institucionais.
+![Preview do projeto](./preview.png)
 
 ---
 
-# 💻 Tecnologias Utilizadas
+# 🧱 Estrutura da página
 
-As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
+A landing page foi organizada com as seguintes seções:
 
-* **HTML5** – Estrutura da página
-* **CSS3** – Estilização e layout
-* **JavaScript (ES6)** – Interatividade e animações
-* **Google Fonts** – Tipografia (Plus Jakarta Sans)
+### 🏠 Home / Banner
+
+* Banner principal com imagem de um vilarejo europeu
+* Texto em destaque (overlay)
+* Chamada para explorar destinos
+
+### 🌍 TripMe
+
+Apresentação da agência e proposta de experiências de viagem autênticas.
+
+### 🤝 MeetUs
+
+Seção sobre a equipe ou filosofia da agência.
+
+### 💡 Advice / Conselhos
+
+Dicas para viajantes que desejam explorar novos destinos.
+
+### 📍 NosEncontre
+
+Informações de contato e localização da agência.
+
+### ⭐ Depoimentos
+
+Relatos de viajantes que utilizaram os serviços da TripMe.
+
+### ❓ FAQ
+
+Perguntas frequentes sobre viagens e planejamento.
+
+### 📩 Contato
+
+Formulário simples para o visitante entrar em contato.
 
 ---
 
-# ✨ Funcionalidades
+# 🧑‍💻 Tecnologias utilizadas
 
-O projeto conta com algumas funcionalidades para melhorar a experiência do usuário:
+Este projeto foi desenvolvido utilizando apenas tecnologias fundamentais do desenvolvimento web:
 
-✔ Navegação com **menu responsivo (hamburguer)**
-✔ **Scroll suave** entre seções da página
-✔ Botão **"Voltar ao topo"**
-✔ Cards interativos com efeito **hover**
-✔ Layout **responsivo para dispositivos móveis**
-✔ Banner com **overlay e botão de navegação**
+* **HTML5**
+* **CSS3**
+* **Font Awesome** (ícones)
+* **Google Fonts**
+
+*Obs.: O desafio não exigia JavaScript, mas pequenas interações foram adicionadas para melhorar a experiência.*
 
 ---
 
-# 📂 Estrutura de Pastas
+# 🧭 Navegação
+
+Toda a navegação da página é **interna**, utilizando âncoras que direcionam para as seções da própria página.
+
+Exemplo:
+
+```html
+<a href="#destinos">Destinos</a>
+
+<section id="destinos">
+```
+
+Essa abordagem permite que o usuário navegue rapidamente pelo conteúdo sem sair da página.
+
+---
+
+# 🎨 Recursos aplicados
+
+Algumas técnicas aplicadas durante o desenvolvimento:
+
+* Estrutura semântica (`nav`, `main`, `section`, `footer`)
+* Layout responsivo
+* Uso de **hover e transições CSS**
+* Cards para apresentação de destinos
+* Galeria de imagens
+* Depoimentos de usuários
+* Formulário de contato
+
+---
+
+# 📂 Estrutura de arquivos
 
 ```
-projeto-viagens/
+viagens--landing-page
 │
 ├── index.html
 ├── style.css
-├── script.js
-│
-└── imagens/
-    ├── banner.jpg
-    ├── paris.jpg
-    ├── london.jpg
-    ├── rome.jpg
-    ├── pessoa1.jpg
-    ├── pessoa2.jpg
-    └── pessoa3.jpg
+├── script.js (opcional)
+└── README.md
 ```
 
 ---
 
-# 🚀 Como Executar o Projeto
+# 🚀 Como executar o projeto
 
-1. Faça o download ou clone este repositório:
+1. Clone o repositório:
 
-```
-git clone https://github.com/seu-usuario/seu-repositorio.git
+```bash
+git clone https://github.com/seu-usuario/viagens--landing-page
 ```
 
 2. Abra a pasta do projeto.
 
-3. Execute o arquivo:
+3. Abra o arquivo **index.html** em seu navegador.
 
-```
-index.html
-```
-
-em qualquer navegador moderno.
+Ou utilize a extensão **Live Server** no Visual Studio Code para visualizar o projeto em tempo real.
 
 ---
 
-# 📱 Responsividade
+# 📌 Requisitos atendidos do desafio
 
-A página foi desenvolvida para funcionar corretamente em diferentes tamanhos de tela, incluindo:
-
-* Desktop
-* Tablet
-* Smartphone
+✔ Banner dentro da tag `<main>`
+✔ Navegação utilizando `<nav>`
+✔ Navegação interna entre seções
+✔ Uso de HTML semântico
+✔ Efeito `hover` nos links e botões
+✔ Múltiplas seções informativas
 
 ---
 
-# 📚 Aprendizados
+# 🎯 Aprendizados
 
 Durante o desenvolvimento deste projeto foi possível praticar:
 
-* Estruturação de páginas com **HTML semântico**
-* Uso de **Flexbox** para layout
-* Criação de **componentes reutilizáveis**
-* Implementação de **menu responsivo**
-* Manipulação do DOM com **JavaScript**
-* Organização de código para projetos front-end
+* Estruturação de páginas com HTML semântico
+* Organização de layout com CSS
+* Navegação interna em páginas
+* Criação de uma landing page simples
+* Boas práticas de organização de código
+
+---
+
+# 🔗 Repositório do projeto
+
+👉 https://github.com/seu-usuario/viagens--landing-page
 
 ---
 
 # 👩‍💻 Autora
 
 Projeto desenvolvido por **Tatiane Souza**
-Desenvolvedora Front-End em formação.
+Front-End Developer em formação.
 
----
-
-# 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais.
+📌 GitHub: https://github.com/seu-usuario
